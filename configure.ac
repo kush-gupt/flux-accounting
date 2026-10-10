@@ -10,7 +10,7 @@ AC_CONFIG_SRCDIR([NEWS])
 
 AM_INIT_AUTOMAKE([subdir-objects tar-ustar filename-length-max=256 foreign])
 AM_SILENT_RULES([yes])
-AM_CONFIG_HEADER([config.h])
+AC_CONFIG_HEADERS([config.h])
 AM_MAINTAINER_MODE([enable])
 
 LT_INIT([dlopen])
